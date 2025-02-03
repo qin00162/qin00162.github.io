@@ -1,28 +1,98 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jiayin Qin's Personal Page</title>
+    <title>Personal Profile</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
-        h1 { color: #333; }
-        .links a { margin: 10px; text-decoration: none; color: blue; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            align-items: center; /* 让图片和文本垂直居中对齐 */
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .text-content {
+            flex: 1;
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%; /* 让图片变成圆形 */
+            object-fit: cover;
+            margin-left: 40px;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        .chinese-name {
+            font-family: "KaiTi", "STKaiti", serif;
+            font-size: 28px;
+        }
+
+        .links {
+            margin-top: 10px;
+        }
+
+        .links a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        .email {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
     </style>
 </head>
 <body>
-    <h1>Jiayin Qin</h1>
-    <p></p>
-    <div class="links">
-        <a href="https://qin00162.github.io/data/CV_Jiayin_Qin.pdf">CV</a> |
-        <a href="qin00162@umn.edu">Email</a>
+
+    <div class="container">
+        <div class="text-content">
+            <h1>Jiayin Qin <span class="chinese-name">(秦佳音)</span></h1>
+            <p>
+                I am a first-year Ph.D. student at UMN, advised by 
+                <a href="https://scholar.google.com/citations?hl=en&user=HxeTq4MAAAAJ">Prof. Yang Zhao</a>. 
+                My research interests are in computer architecture, VLSI and LLM, 
+                with a focus on hardware-algorithm co-design and LLM-empowered hardware design.
+            </p>
+
+            <p>
+                I received B.Eng. in Microelectronics Science and Engineering from Fudan University,
+                and collaborated with <a href="https://ieeexplore.ieee.org/author/37600175900">Prof. Lingli Wang</a> in Reconfigurable Accelerator Design such as CGRA.
+            </p>
+
+            <div class="links">
+                <a href="#">Google Scholar</a> /
+                <a href="#">CV</a> /
+                <a href="#">LinkedIn</a> /
+                <a href="#">GitHub</a> /
+                <a href="#">Twitter</a>
+            </div>
+
+            <p class="email"><a href="qin00162@umn.edu">Email: qin00162@umn.edu</a></p>
+        </div>
+
+        <img class="profile-img" src="https://qin00162.github.io/photo/qin.jpg" alt="Profile Picture">
     </div>
-    <h2>Research Interests</h2>
-    <p>
-        My research is at the intersection of VLSI, computer architecture, and LLM.
-        I conduct hardware-algorithm co-design for advanced applications such as 3D Gaussian Splatting SLAM,
-        and am currently exploring the application of generative AI in hardware design, 
-        with the vision to advance their performance, efficiency, resilience, and trustworthiness.
-    </p>
+
 </body>
 </html>
+
