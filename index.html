@@ -87,6 +87,37 @@
             max-width: 900px;
             margin: 0 auto;
         }
+        .section {
+            margin-bottom: 40px;
+        }
+        .paper img {
+            width: 180px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+        .paper {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .paper-content {
+            flex: 1;
+        }
+        .paper-title {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .author {
+            font-weight: bold;
+        }
+        .conference {
+            font-style: italic;
+        }
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
 
     </style>
 </head>
@@ -96,7 +127,7 @@
         <div class="text-content">
             <h1>Jiayin Qin <span class="chinese-name">(秦佳音)</span></h1>
             <p>
-                I am a first-year Ph.D. student at UMN, advised by 
+                I am a first-year Ph.D. student at University of Minnesota, advised by 
                 <a href="https://scholar.google.com/citations?hl=en&user=HxeTq4MAAAAJ">Prof. Yang Zhao</a>. 
                 My research interests are in computer architecture, VLSI and LLM, 
                 with a focus on hardware-algorithm co-design and LLM-empowered hardware design.
@@ -104,7 +135,7 @@
 
             <p>
                 I received B.Eng. in Microelectronics Science and Engineering from Fudan University,
-                and collaborated with <a href="https://ieeexplore.ieee.org/author/37600175900">Prof. Lingli Wang</a> in Reconfigurable Accelerator Design such as CGRA.
+                and collaborated with <a href="https://ieeexplore.ieee.org/author/37600175900">Prof. Lingli Wang</a> in Reconfigurable Accelerator Design such as FPGA and CGRA.
             </p>
 
             <div class="links">
@@ -123,14 +154,33 @@
             <h2> Research Interests </h2>
             <p> My current research interests lie in the intersection of efficient computer architecture and advanced algorithms, focusing on two core missions: </p>
 
-            <p>1. Algorithm-Hardware Co-Design for AI Workloads: I conduct algorithm-hardware co-design to develop efficient hardware accelerators tailored for advanced AI workloads, 
+            <p> <strong>Algorithm-Hardware Co-Design for AI Workloads:</strong> I conduct algorithm-hardware co-design to develop efficient hardware accelerators tailored for advanced AI workloads, 
                 such as 3D Gaussian Splatting SLAM. These efforts enhance their performance, efficiency and resilience.</p>
 
-            <p> 2. Automatic AI Agent System for Hardware Design: I explore automated AI agent systems to assist advanced hardware design, 
+            <p> <strong>Automatic AI Agent System for Hardware Design:</strong> I explore automated AI agent systems to assist advanced hardware design, 
                 such as 2.5D integration. By leveraging AI-driven methodologies, my work aims to improve design automation, reduce human effort, and enhance the overall efficiency of the hardware design process. 
             </p>
     </div>
 
+    <div class="section">
+        <h2>PrePrint</h2>
+        <div class="paper">
+            <img src="preprint-image.jpg" alt="Preprint Figure">
+            <div class="paper-content">
+                <p class="paper-title">
+                    HiVeGen -- Hierarchical LLM-based Verilog Generation for Scalable Chip Design
+                </p>
+                <p class="author">Jinwei Tang*, Jiayin Qin*, Kiran Thorat, Chen Zhu-Tian, Yu Cao, Yang (Katie)Zhao, Caiwen Ding</p>
+                 <div class="links">
+                    <a href="https://arxiv.org/abs/2412.05393">Paper</a> 
+                </div>
+                <p>
+                    We propose HiVeGen, a hierarchical LLM-based Verilog generation framework that decomposes generation tasks into LLM-manageable hierarchical submodules. 
+                    HiVeGen further harnesses the advantages of such hierarchical structures by integrating automatic Design Space Exploration (DSE) into hierarchy-aware prompt generation, 
+                    introducing weight-based retrieval to enhance code reuse, and enabling real-time human-computer interaction to lower error-correction cost, significantly improving the quality of generated designs.
+                </p>
+        </div>
+    </div>
 </body>
 </html>
 
