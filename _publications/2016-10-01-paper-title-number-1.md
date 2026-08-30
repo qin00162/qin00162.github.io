@@ -11,3 +11,4 @@ image: "/images/rtgs.png"
 ---
 
 [Paper](https://arxiv.org/pdf/2510.06644)
+[Slides](/files/rtgs.pdf)

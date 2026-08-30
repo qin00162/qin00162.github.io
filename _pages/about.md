@@ -12,13 +12,13 @@ Welcome! I am a third-year Ph.D. student in Electrical Engineering at the Univer
 ## Research Interests
 
 
-My research interests lie at the intersection of **efficient computer architecture** and **emerging AI algorithms**, with a focus on two directions:
-
 ### Algorithm-Hardware Co-Design for Emerging Workloads
-I conduct algorithm-hardware co-design to develop efficient hardware accelerators tailored for advanced AI workloads, including **3D Gaussian Splatting SLAM (3DGS-SLAM)** and **Hyperdimensional Computing (HDC)**, with the goal of improving performance, efficiency, and resilience.
+
+I conduct algorithm-hardware co-design to develop efficient computing architectures for emerging AI workloads and pipelines, including **Vision-Language-Action (VLA) models**, **Reinforcement Learning**, **Mixture-of-Experts (MoE)**, and **3D Gaussian Splatting SLAM (3DGS-SLAM)**. My work spans specialized accelerators, chiplet and wafer-scale systems, and GPU server-edge co-design to improve the performance and efficiency of AI systems.
 
 ### Automatic AI Agent Systems for Hardware Design
-I explore automated AI agent systems for advanced hardware design, including **2.5D integration**. By leveraging AI-driven methodologies, my work aims to improve design automation, reduce human effort, and enhance the efficiency of the hardware design process.
+
+I explore **LLM- and multi-agent-based systems for automated hardware design**, with applications in **RTL generation, chiplet design, hardware debugging, and RISC-V instruction extension**. My research aims to make complex hardware design more scalable and automated while reducing human effort.
 
 ## Education
 
