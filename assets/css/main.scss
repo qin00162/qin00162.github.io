@@ -10,7 +10,7 @@
  *
 */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "vendor/breakpoint/breakpoint";
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
@@ -39,3 +39,31 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+
+/* ============================
+   Custom Font
+   ============================ */
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.page__title,
+.archive__item-title,
+.site-title,
+.author__name {
+  font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif !important;
+  font-weight: 600;
+}
