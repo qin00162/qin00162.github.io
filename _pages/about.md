@@ -10,15 +10,63 @@ redirect_from:
 Welcome! I am a third-year Ph.D. student in Electrical Engineering at the University of Minnesota, advised by [Prof. Yang Zhao](https://scholar.google.com/citations?hl=en&user=HxeTq4MAAAAJ). My research interests lie at the intersection of computer architecture and emerging AI worloads, with a particular focus on **Hardware–Algorithm Co-design for Efficient AI** and **AI-assisted hardware design**. Before joining UMN, I received my B.Eng. degree in Microelectronics Science and Engineering from Fudan University, where I worked with [Prof. Lingli Wang](https://ieeexplore.ieee.org/author/37600175900) on reconfigurable accelerator designs.
 
 ## Research Interests
+<div style="margin-top:16px;">
+
+  <div style="
+    padding:16px 20px;
+    margin-bottom:18px;
+    border-left:4px solid #888;
+    background:#fafafa;
+    border-radius:6px;
+  ">
+    <h3 style="
+      margin:0 0 8px 0;
+      font-size:1.08em;
+      font-weight:600;
+      line-height:1.3;
+    ">
+      Algorithm-Hardware Co-Design for Emerging Workloads
+    </h3>
+
+    <p style="margin:0; line-height:1.4;">
+      I develop efficient computing architectures for emerging AI workloads and pipelines,
+      including <strong>Vision-Language-Action (VLA) models</strong>,
+      <strong>Reinforcement Learning</strong>,
+      <strong>Mixture-of-Experts (MoE)</strong>, and
+      <strong>3D Gaussian Splatting SLAM (3DGS-SLAM)</strong>.
+      My work spans specialized accelerators,
+      chiplet and wafer-scale systems, and
+      GPU server-edge co-design to improve the performance and efficiency of AI systems.
+    </p>
+  </div>
 
 
-### Algorithm-Hardware Co-Design for Emerging Workloads
+  <div style="
+    padding:16px 20px;
+    border-left:4px solid #888;
+    background:#fafafa;
+    border-radius:6px;
+  ">
+    <h3 style="
+      margin:0 0 8px 0;
+      font-size:1.08em;
+      font-weight:600;
+      line-height:1.3;
+    ">
+      Automatic AI Agent Systems for Hardware Design
+    </h3>
 
-I conduct algorithm-hardware co-design to develop efficient computing architectures for emerging AI workloads and pipelines, including **Vision-Language-Action (VLA) models**, **Reinforcement Learning**, **Mixture-of-Experts (MoE)**, and **3D Gaussian Splatting SLAM (3DGS-SLAM)**. My work spans specialized accelerators, chiplet and wafer-scale systems, and GPU server-edge co-design to improve the performance and efficiency of AI systems.
+    <p style="margin:0; line-height:1.4;">
+      I explore <strong>LLM- and multi-agent-based systems</strong> for automated hardware design,
+      with applications in <strong>RTL generation</strong>,
+      <strong>chiplet design</strong>,
+      <strong>hardware debugging</strong>, and
+      <strong>RISC-V instruction extension</strong>.
+      My research aims to make complex hardware design more scalable and automated while reducing human effort.
+    </p>
+  </div>
 
-### Automatic AI Agent Systems for Hardware Design
-
-I explore **LLM- and multi-agent-based systems for automated hardware design**, with applications in **RTL generation, chiplet design, hardware debugging, and RISC-V instruction extension**. My research aims to make complex hardware design more scalable and automated while reducing human effort.
+</div>
 
 ## Education
 
